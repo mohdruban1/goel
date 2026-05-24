@@ -5,7 +5,6 @@ setup(700,900)
 h=0.7
 bgcolor('black')
 pensize(2.3)
-
 for i in range(360):
    c=colorsys.hsv_to_rgb(h,1,1)
    color(c)
